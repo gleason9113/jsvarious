@@ -14,7 +14,13 @@ class Note {
     }
 }
 
+let colorMenu = document.querySelector("#color-menu");
 
+colorMenu.addEventListener('click', (e) => {
+    let curr=document.querySelector("#curr");
+    let choice = e.target.value;
+    curr.style.backgroundColor = `var(--${choice})`;
+})
 
 
 

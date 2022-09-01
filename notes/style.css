@@ -1,0 +1,33 @@
+:root {
+    --blue: #7afcff;
+    --white: #ffffff;
+    --yellow: #ffa;
+    --purple: #AE86BC;
+    --pink: #ff7eb9; 
+    --gray: #8A8FA3;  
+    --green: #89B18C;  
+  }
+
+.post-it {
+    width: 250px;
+    height: 240px;
+    position: relative;
+    background: #ffa;
+    overflow: hidden;
+    margin: 0px;
+    padding:20px;
+    border-radius: 0 0 0 0; 
+    line-height: 1.7em;
+    font-size: 19px;
+}
+
+#create {
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.5);
+    width: fit-content;
+    padding: 0px;
+}
+
+#view {
+    margin: 20px;
+    width: 300px;
+}
